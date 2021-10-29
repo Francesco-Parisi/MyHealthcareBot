@@ -51,7 +51,7 @@ class InfoHealthFacilityDialog extends ExitDialog {
     clinicaVesuvioCard() {
         return CardFactory.thumbnailCard(
             'Clinica Vesuvio', [{
-                url: '' //Image Url
+                url: 'http://www.myhealthcarebot.altervista.org/images/Case-Clinica-Vesuvio-Napoli-001-480w.webp'
             }], [{
                 type: 'openUrl',
                 title: 'Vai al sito',
@@ -70,7 +70,7 @@ class InfoHealthFacilityDialog extends ExitDialog {
     casaLaMadonninaCard() {
         return CardFactory.thumbnailCard(
             'Casa di Cura La Madonnina', [{
-                url: '' //Image Url
+                url: 'http://www.myhealthcarebot.altervista.org/images/logo_la_madonnina.png'
             }], [{
                 type: 'openUrl',
                 title: 'Vai al sito',
@@ -89,7 +89,7 @@ class InfoHealthFacilityDialog extends ExitDialog {
     centroAscioneCard() {
         return CardFactory.thumbnailCard(
             'Centro Medico Ascione', [{
-                url: '' //Image Url
+                url: 'http://www.myhealthcarebot.altervista.org/images/Centro-Medico-Ascione.png'
             }], [{
                 type: 'openUrl',
                 title: 'Vai al sito',
@@ -109,7 +109,7 @@ class InfoHealthFacilityDialog extends ExitDialog {
     clinicaTrussoCard() {
         return CardFactory.thumbnailCard(
             'Clinica Trusso', [{
-                url: '' //Image Url
+                url: 'http://www.myhealthcarebot.altervista.org/images/logo-clinica-trusso.png'
             }], [{
                 type: 'openUrl',
                 title: 'Vai al sito',

@@ -51,7 +51,7 @@ class InfoHealthFacilityDialog extends ExitDialog {
     clinicaVesuvioCard() {
         return CardFactory.thumbnailCard(
             'Clinica Vesuvio', [{
-                url: '' //Image Url
+                url: 'http://www.myhealthcarebot.altervista.org/images/Case-Clinica-Vesuvio-Napoli-001-480w.webp'
             }], [{
                 type: 'openUrl',
                 title: 'Vai al sito',

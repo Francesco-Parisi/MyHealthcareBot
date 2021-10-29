@@ -91,7 +91,7 @@ class InfoDoctorDialog extends ExitDialog {
         if (message === 'Clinica Vesuvio' || LuisRecognizer.topIntent(luisResult) === 'Clinica_Vesuvio') {
             var cardDott1 = CardFactory.thumbnailCard(
                 'Dott. Vito di Palma', [{
-                    url: '' //Image Url
+                    url: 'http://www.myhealthcarebot.altervista.org/images/Baldi-Antonio.jpg'
                 }], [], {
                     subtitle: 'Specializzazione: Cardiologia\n\nTelefono: 349 733 1388\n\nOrario Visite: Lunedi-Giovedi dalle 9:00 alle 12:00',
                     text: 'Sono un cardiologo con particolare interesse\nper la Cardiologia Interventistica.' +
@@ -108,7 +108,7 @@ class InfoDoctorDialog extends ExitDialog {
 
             var cardDott2 = CardFactory.thumbnailCard(
                 'Dott. Sergio Oliva', [{
-                    url: '' //Image Url
+                    url: 'http://www.myhealthcarebot.altervista.org/images/Dott-De-Simoni-Pierangelo.jpg'
                 }], [], {
                     subtitle: 'Specializzazione:  Pediatria\n\nTelefono: 081 1929 5488\n\nOrario Visite: Martedì-Venerdì dalle 9:00 alle 12:00',
 
@@ -123,7 +123,8 @@ class InfoDoctorDialog extends ExitDialog {
         } else if (message === 'Casa di Cura La Madonnina' || LuisRecognizer.topIntent(luisResult) === 'Casa_di_Cura_La_Madonnina') {
             var cardDott3 = CardFactory.thumbnailCard(
                 'Dott.ssa Beniamina Giordano', [{
-                    url: '' //Image Url
+                    url: 'http://www.myhealthcarebot.altervista.org/images/Bernardini-Maria-Luisa.jpg',
+                    size: "medium"
                 }], [], {
                     subtitle: 'Specializzazione: Cardiologia Pediatrica\n\nTelefono: 081 1928 8378\n\nOrario Visite: Lunedì-Mercoledì dalle 15:00 alle 18:00',
                     text: 'Specializzata in Cardiologia Pediatrica.Laureata in Medicina e chirurgia nel 1981, si è specializzata in Cardiologia ' +
@@ -138,7 +139,7 @@ class InfoDoctorDialog extends ExitDialog {
 
             var cardDott4 = CardFactory.thumbnailCard(
                 'Dott. Ennio Flores', [{
-                    url: '' //Image Url
+                    url: 'http://www.myhealthcarebot.altervista.org/images/stocchi-ovidio.jpg'
                 }], [], {
                     subtitle: 'Specializzazione: Ortopedia\n\nTelefono: 081 1928 9010\n\nOrario Visite: Martedì-Giovedì dalle 10:00 alle 13:00',
                     text: 'Specializzato in Ortopedia e Traumatologia presso la Prima Università di Napoli con voto 70/70 ' +
@@ -156,7 +157,7 @@ class InfoDoctorDialog extends ExitDialog {
         if (message === 'Centro Medico Ascione' || LuisRecognizer.topIntent(luisResult) === 'Centro_Medico_Ascione') {
             var cardDott5 = CardFactory.thumbnailCard(
                 'Dott. Giuseppe Stabile', [{
-                    url: '' //Image Url
+                    url: 'http://www.myhealthcarebot.altervista.org/images/manenti-marco.jpg'
                 }], [], {
                     subtitle: 'Specializzazione: Chirurgia Plastica\n\nTelefono: 081 717 8111\n\nOrario Visite: Martedì-Mercoledì dalle 16:00 alle 18:00"',
                     text: 'Il Dott. Carmine Andrea Nunziata è Specialista in Chirurgia Plastica, Ricostruttiva ed Estetica.' +
@@ -171,7 +172,7 @@ class InfoDoctorDialog extends ExitDialog {
 
             var cardDott6 = CardFactory.thumbnailCard(
                 'Dott. Vincenzo Napolitano', [{
-                    url: '' //Image Url
+                    url: 'http://www.myhealthcarebot.altervista.org/images/Dott-Di-placido-Vincenzo.jpg'
                 }], [], {
                     subtitle: 'Specializzazione: Oculistica\n\nTelefono: 081 1928 9064\n\nOrario Visite: Martedì-Mercoledì dalle 9:00 alle 12:00',
                     text: 'Specialista in Oftalmologia. Responsabile del Servizio glaucoma ' +
@@ -188,7 +189,7 @@ class InfoDoctorDialog extends ExitDialog {
         } else if (message === 'Clinica Trusso' || LuisRecognizer.topIntent(luisResult) === 'Clinica_Trusso') {
             var cardDott7 = CardFactory.thumbnailCard(
                 'Dott. Giovanni Grimaldi ', [{
-                    url: '' //Image Url
+                    url: 'http://www.myhealthcarebot.altervista.org/images/Coculla_Marco_Holos3m.jpg'
                 }], [], {
                     subtitle: 'Specializzazione: Urologia\n\nTelefono: 081 455 1730\n\nOrario Visite: Lunedì-Venerdì dalle 15:00 alle 18:00',
                     text: 'Mi sono laureato nel 2010 in Medicina e Chirurgia presso la Seconda Università degli Studi di Napoli con il massimo dei voti,' +
@@ -201,7 +202,7 @@ class InfoDoctorDialog extends ExitDialog {
 
             var cardDott8 = CardFactory.thumbnailCard(
                 'Dott.ssa Milena Cappello', [{
-                    url: '' //Image Url
+                    url: 'http://www.myhealthcarebot.altervista.org/images/morganti-milena.jpg'
                 }], [], {
                     subtitle: 'Specializzazione: Dermatologia\n\nTelefono: 081 1928 8067\n\nOrario Visite: Lunedì-Giovedì dalle 10:00 alle 12:00',
                     text: 'Laurea Magistrale in Medicina e Chirurgia con votazione finale 110 e lode presso Università degli Studi di NAPOLI' +

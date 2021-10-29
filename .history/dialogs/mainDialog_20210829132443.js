@@ -101,7 +101,7 @@ class MainDialog extends ComponentDialog {
 
             var card = CardFactory.thumbnailCard(
                 'Clinica Vesuvio', [{
-                    url: '' //Image Url
+                    url: 'http://www.myhealthcarebot.altervista.org/images/Case-Clinica-Vesuvio-Napoli-001-480w.webp'
                 }], [{
                     type: 'openUrl',
                     title: 'Vai al sito',
@@ -122,7 +122,7 @@ class MainDialog extends ComponentDialog {
         } else if (LuisRecognizer.topIntent(luisResult) === 'Info_La_Madonnina') {
             var card = CardFactory.thumbnailCard(
                 'Casa di Cura La Madonnina', [{
-                    url: '' //Image Url
+                    url: 'http://www.myhealthcarebot.altervista.org/images/logo_la_madonnina.png'
                 }], [{
                     type: 'openUrl',
                     title: 'Vai al sito',
@@ -143,7 +143,7 @@ class MainDialog extends ComponentDialog {
         } else if (LuisRecognizer.topIntent(luisResult) === 'Info_Ascione') {
             var card = CardFactory.thumbnailCard(
                 'Centro Medico Ascione', [{
-                    url: '' //Image Url
+                    url: 'http://www.myhealthcarebot.altervista.org/images/Centro-Medico-Ascione.png'
                 }], [{
                     type: 'openUrl',
                     title: 'Vai al sito',
@@ -165,7 +165,7 @@ class MainDialog extends ComponentDialog {
         } else if (LuisRecognizer.topIntent(luisResult) === 'Info_Trusso') {
             var card = CardFactory.thumbnailCard(
                 'Clinica Trusso', [{
-                    url: '' //Image Url
+                    url: 'http://www.myhealthcarebot.altervista.org/images/logo-clinica-trusso.png'
                 }], [{
                     type: 'openUrl',
                     title: 'Vai al sito',

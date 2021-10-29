@@ -124,6 +124,7 @@ class InfoDoctorDialog extends ExitDialog {
             var cardDott3 = CardFactory.thumbnailCard(
                 'Dott.ssa Beniamina Giordano', [{
                     url: '' //Image Url
+                    size: "medium"
                 }], [], {
                     subtitle: 'Specializzazione: Cardiologia Pediatrica\n\nTelefono: 081 1928 8378\n\nOrario Visite: Lunedì-Mercoledì dalle 15:00 alle 18:00',
                     text: 'Specializzata in Cardiologia Pediatrica.Laureata in Medicina e chirurgia nel 1981, si è specializzata in Cardiologia ' +

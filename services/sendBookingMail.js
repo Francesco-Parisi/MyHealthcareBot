@@ -4,8 +4,8 @@ module.exports = async function(context, req) {
     const transporter = nodemailer.createTransport({
         service: 'gmail',
         auth: {
-            user: 'botmyhealthcare@gmail.com', // your GMail email address 
-            pass: 'UaAHdnEPKULIqWVzN1XBGed' // your Gmail password
+            user: '', // your GMail email address 
+            pass: '' // your Gmail password
         }
     });
 
@@ -15,7 +15,7 @@ module.exports = async function(context, req) {
     const attachment = (req.query.attachment || (req.body && req.body.attachment));
 
     const mailOptions = {
-        from: 'botmyhealthcare@gmail.com',
+        from: '', // your GMail email address 
         to: email,
         subject: subject,
         text: object,

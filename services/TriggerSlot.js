@@ -3,7 +3,7 @@ var moment = require('moment');
 
 module.exports = async function(context) {
 
-    const url = 'mongodb://botcosmosdbmongo:GLIBudChxLncA96ynMFrVGtMyvkzK1T0oleHWrUcc2oChfbjdpkB2KK3AFFoFsbCEqIh677B14bOTABPfVBYDA==@botcosmosdbmongo.mongo.cosmos.azure.com:10255/?ssl=true&replicaSet=globaldb&retrywrites=false&maxIdleTimeMS=120000&appName=@botcosmosdbmongo@';
+    const url = 'mongodb API';
     const client = new MongoClient(url);
 
     client.connect();
