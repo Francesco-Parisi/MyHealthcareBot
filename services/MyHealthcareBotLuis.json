@@ -1,0 +1,2329 @@
+{
+  "luis_schema_version": "7.0.0",
+  "intents": [
+    {
+      "name": "Annulla Visita",
+      "features": []
+    },
+    {
+      "name": "Casa di Cura La Madonnina",
+      "features": []
+    },
+    {
+      "name": "Centro Medico Ascione",
+      "features": []
+    },
+    {
+      "name": "Clinica Trusso",
+      "features": []
+    },
+    {
+      "name": "Clinica Vesuvio",
+      "features": []
+    },
+    {
+      "name": "Dottori",
+      "features": []
+    },
+    {
+      "name": "Info Ascione",
+      "features": []
+    },
+    {
+      "name": "Info La Madonnina",
+      "features": []
+    },
+    {
+      "name": "Info Trusso",
+      "features": []
+    },
+    {
+      "name": "Info Vesuvio",
+      "features": []
+    },
+    {
+      "name": "Login",
+      "features": []
+    },
+    {
+      "name": "Menu",
+      "features": []
+    },
+    {
+      "name": "None",
+      "features": []
+    },
+    {
+      "name": "Pannello Prenotazioni",
+      "features": []
+    },
+    {
+      "name": "Prenotazione Visita",
+      "features": []
+    },
+    {
+      "name": "Strutture",
+      "features": []
+    },
+    {
+      "name": "Utilities.Help",
+      "inherits": {
+        "domain_name": "Utilities",
+        "model_name": "Help"
+      },
+      "features": []
+    }
+  ],
+  "entities": [],
+  "hierarchicals": [],
+  "composites": [],
+  "closedLists": [],
+  "prebuiltEntities": [],
+  "utterances": [
+    {
+      "text": "accesso admin",
+      "intent": "Login",
+      "entities": []
+    },
+    {
+      "text": "accesso admin struttura",
+      "intent": "Login",
+      "entities": []
+    },
+    {
+      "text": "accesso all'area amministratore",
+      "intent": "Login",
+      "entities": []
+    },
+    {
+      "text": "accesso amministratore",
+      "intent": "Login",
+      "entities": []
+    },
+    {
+      "text": "accesso come admin",
+      "intent": "Login",
+      "entities": []
+    },
+    {
+      "text": "accesso come amministratore",
+      "intent": "Login",
+      "entities": []
+    },
+    {
+      "text": "admin login",
+      "intent": "Login",
+      "entities": []
+    },
+    {
+      "text": "aiutami",
+      "intent": "Utilities.Help",
+      "entities": []
+    },
+    {
+      "text": "aiutami non so come prenotare una visita",
+      "intent": "Utilities.Help",
+      "entities": []
+    },
+    {
+      "text": "aiutami non so come vedere i dottori di una struttura",
+      "intent": "Utilities.Help",
+      "entities": []
+    },
+    {
+      "text": "aiutami non so come vedere le strutture presenti",
+      "intent": "Utilities.Help",
+      "entities": []
+    },
+    {
+      "text": "aiutami per favore",
+      "intent": "Utilities.Help",
+      "entities": []
+    },
+    {
+      "text": "aiuto",
+      "intent": "Utilities.Help",
+      "entities": []
+    },
+    {
+      "text": "amministratore",
+      "intent": "Login",
+      "entities": []
+    },
+    {
+      "text": "amministratore login",
+      "intent": "Login",
+      "entities": []
+    },
+    {
+      "text": "amministratore struttura",
+      "intent": "Login",
+      "entities": []
+    },
+    {
+      "text": "annulla appuntamento clinica vesuvio",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "annulla prenotazione",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "annulla una prenotazione",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "annulla visita",
+      "intent": "Annulla Visita",
+      "entities": []
+    },
+    {
+      "text": "annullare appuntamenti",
+      "intent": "Annulla Visita",
+      "entities": []
+    },
+    {
+      "text": "annullare appuntamento di un dottore",
+      "intent": "Annulla Visita",
+      "entities": []
+    },
+    {
+      "text": "annullare controllo di un dottore",
+      "intent": "Annulla Visita",
+      "entities": []
+    },
+    {
+      "text": "annullare controllo medico",
+      "intent": "Annulla Visita",
+      "entities": []
+    },
+    {
+      "text": "annullare prenotazioni clinica vesuvio",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "annullare una visita",
+      "intent": "Annulla Visita",
+      "entities": []
+    },
+    {
+      "text": "annullare visita di un dottore",
+      "intent": "Annulla Visita",
+      "entities": []
+    },
+    {
+      "text": "annullare visite mediche",
+      "intent": "Annulla Visita",
+      "entities": []
+    },
+    {
+      "text": "apri la guida d'aiuto",
+      "intent": "Utilities.Help",
+      "entities": []
+    },
+    {
+      "text": "area login admin",
+      "intent": "Login",
+      "entities": []
+    },
+    {
+      "text": "area login admin struttura sanitaria",
+      "intent": "Login",
+      "entities": []
+    },
+    {
+      "text": "area login amminstratore struttura",
+      "intent": "Login",
+      "entities": []
+    },
+    {
+      "text": "bho",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "cancella appuntamento",
+      "intent": "Annulla Visita",
+      "entities": []
+    },
+    {
+      "text": "cancella visita",
+      "intent": "Annulla Visita",
+      "entities": []
+    },
+    {
+      "text": "casa di cura la madonnina mostrami i dottori",
+      "intent": "Casa di Cura La Madonnina",
+      "entities": []
+    },
+    {
+      "text": "casa di cura la madonnina visualizza i dottori",
+      "intent": "Casa di Cura La Madonnina",
+      "entities": []
+    },
+    {
+      "text": "centro medico ascione dottori",
+      "intent": "Centro Medico Ascione",
+      "entities": []
+    },
+    {
+      "text": "centro medico ascione mostra i dottori",
+      "intent": "Centro Medico Ascione",
+      "entities": []
+    },
+    {
+      "text": "chi mi può aiutare",
+      "intent": "Utilities.Help",
+      "entities": []
+    },
+    {
+      "text": "clinica trusso mostrami i dottori",
+      "intent": "Clinica Trusso",
+      "entities": []
+    },
+    {
+      "text": "clinica vesuvio mostra i dottori",
+      "intent": "Clinica Vesuvio",
+      "entities": []
+    },
+    {
+      "text": "clinica vesuvio mostrami i dottori",
+      "intent": "Clinica Vesuvio",
+      "entities": []
+    },
+    {
+      "text": "clinica vesuvio visualizza i dottori",
+      "intent": "Clinica Vesuvio",
+      "entities": []
+    },
+    {
+      "text": "come accedo al menu?",
+      "intent": "Menu",
+      "entities": []
+    },
+    {
+      "text": "come accedo all'area amministratore?",
+      "intent": "Login",
+      "entities": []
+    },
+    {
+      "text": "come arrivare al centro medico ascione?",
+      "intent": "Info Ascione",
+      "entities": []
+    },
+    {
+      "text": "come arrivare alla casa di cura la madonnina?",
+      "intent": "Info La Madonnina",
+      "entities": []
+    },
+    {
+      "text": "come arrivare alla clinica trusso?",
+      "intent": "Info Trusso",
+      "entities": []
+    },
+    {
+      "text": "come arrivare alla clinica vesuvio?",
+      "intent": "Info Vesuvio",
+      "entities": []
+    },
+    {
+      "text": "come contatto il centro medico ascione?",
+      "intent": "Info Ascione",
+      "entities": []
+    },
+    {
+      "text": "come contatto la casa di cura la madonnina?",
+      "intent": "Info La Madonnina",
+      "entities": []
+    },
+    {
+      "text": "come contatto la clinica trusso?",
+      "intent": "Info Trusso",
+      "entities": []
+    },
+    {
+      "text": "come contatto la clinica vesuvio?",
+      "intent": "Info Vesuvio",
+      "entities": []
+    },
+    {
+      "text": "come faccio a prenotare una visita?",
+      "intent": "Utilities.Help",
+      "entities": []
+    },
+    {
+      "text": "come faccio?",
+      "intent": "Utilities.Help",
+      "entities": []
+    },
+    {
+      "text": "come farlo",
+      "intent": "Utilities.Help",
+      "entities": []
+    },
+    {
+      "text": "come ottengo le prenotazioni dei pazienti?",
+      "intent": "Pannello Prenotazioni",
+      "entities": []
+    },
+    {
+      "text": "come posso otternerlo",
+      "intent": "Utilities.Help",
+      "entities": []
+    },
+    {
+      "text": "come posso prenotare una visita ?",
+      "intent": "Utilities.Help",
+      "entities": []
+    },
+    {
+      "text": "come posso prenotare una visita medica?",
+      "intent": "Utilities.Help",
+      "entities": []
+    },
+    {
+      "text": "come posso prenotare una visita specialistica?",
+      "intent": "Utilities.Help",
+      "entities": []
+    },
+    {
+      "text": "come posso raggiungere il centro medico ascione?",
+      "intent": "Info Ascione",
+      "entities": []
+    },
+    {
+      "text": "come posso raggiungere la casa di cura la madonnina?",
+      "intent": "Info La Madonnina",
+      "entities": []
+    },
+    {
+      "text": "come posso raggiungere la clinica trusso?",
+      "intent": "Info Trusso",
+      "entities": []
+    },
+    {
+      "text": "come posso raggiungere la clinica vesuvio?",
+      "intent": "Info Vesuvio",
+      "entities": []
+    },
+    {
+      "text": "come posso visualizzare le strutture convenzionate?",
+      "intent": "Utilities.Help",
+      "entities": []
+    },
+    {
+      "text": "come posso visualizzare le strutture sanitarie?",
+      "intent": "Utilities.Help",
+      "entities": []
+    },
+    {
+      "text": "come posso visualizzare le strutture?",
+      "intent": "Utilities.Help",
+      "entities": []
+    },
+    {
+      "text": "come posso visualizzare tutte le cliniche presenti?",
+      "intent": "Utilities.Help",
+      "entities": []
+    },
+    {
+      "text": "come prenoto una visita ?",
+      "intent": "Utilities.Help",
+      "entities": []
+    },
+    {
+      "text": "come prenoto una visita medica?",
+      "intent": "Utilities.Help",
+      "entities": []
+    },
+    {
+      "text": "come prenoto una visita specialistica?",
+      "intent": "Utilities.Help",
+      "entities": []
+    },
+    {
+      "text": "come prenoto una visita?",
+      "intent": "Utilities.Help",
+      "entities": []
+    },
+    {
+      "text": "come raggiungo il centro medico ascione?",
+      "intent": "Info Ascione",
+      "entities": []
+    },
+    {
+      "text": "come raggiungo la casa di cura la madonnina?",
+      "intent": "Info La Madonnina",
+      "entities": []
+    },
+    {
+      "text": "come raggiungo la clinica trusso?",
+      "intent": "Info Trusso",
+      "entities": []
+    },
+    {
+      "text": "come raggiungo la clinica vesuvio?",
+      "intent": "Info Vesuvio",
+      "entities": []
+    },
+    {
+      "text": "come visualizzo i dottori del centro medico ascione?",
+      "intent": "Centro Medico Ascione",
+      "entities": []
+    },
+    {
+      "text": "come visualizzo i dottori della casa di cura la madonnina?",
+      "intent": "Casa di Cura La Madonnina",
+      "entities": []
+    },
+    {
+      "text": "come visualizzo i dottori della clinica vesuvio?",
+      "intent": "Clinica Vesuvio",
+      "entities": []
+    },
+    {
+      "text": "come visualizzo i dottori?",
+      "intent": "Utilities.Help",
+      "entities": []
+    },
+    {
+      "text": "come visualizzo le strutture sanitarie?",
+      "intent": "Utilities.Help",
+      "entities": []
+    },
+    {
+      "text": "come visualizzo le strutture?",
+      "intent": "Utilities.Help",
+      "entities": []
+    },
+    {
+      "text": "come visualizzo le stutture sanitarie?",
+      "intent": "Utilities.Help",
+      "entities": []
+    },
+    {
+      "text": "come visualizzo tutti i dottori di una struttura?",
+      "intent": "Utilities.Help",
+      "entities": []
+    },
+    {
+      "text": "come visualizzo un dottore di una certa struttura?",
+      "intent": "Utilities.Help",
+      "entities": []
+    },
+    {
+      "text": "dammi alcune informazioni sulle strutture presenti",
+      "intent": "Strutture",
+      "entities": []
+    },
+    {
+      "text": "dammi gli appuntamenti prenotati",
+      "intent": "Pannello Prenotazioni",
+      "entities": []
+    },
+    {
+      "text": "dammi i dottori della casa di cura la madonnina",
+      "intent": "Casa di Cura La Madonnina",
+      "entities": []
+    },
+    {
+      "text": "dammi i dottori della clinica trusso",
+      "intent": "Clinica Trusso",
+      "entities": []
+    },
+    {
+      "text": "dammi i dottori della clinica vesuvio",
+      "intent": "Clinica Vesuvio",
+      "entities": []
+    },
+    {
+      "text": "dammi i dottori presenti nel centro medico ascione",
+      "intent": "Centro Medico Ascione",
+      "entities": []
+    },
+    {
+      "text": "dammi i dottori presenti nella casa di cura la madonnina",
+      "intent": "Casa di Cura La Madonnina",
+      "entities": []
+    },
+    {
+      "text": "dammi i dottori presenti nella clinica vesuvio",
+      "intent": "Clinica Vesuvio",
+      "entities": []
+    },
+    {
+      "text": "dammi il menu",
+      "intent": "Menu",
+      "entities": []
+    },
+    {
+      "text": "dammi il menù",
+      "intent": "Menu",
+      "entities": []
+    },
+    {
+      "text": "dammi info sulla casa di cura la madonnina",
+      "intent": "Info La Madonnina",
+      "entities": []
+    },
+    {
+      "text": "dammi info sulla centro medico ascione",
+      "intent": "Info Ascione",
+      "entities": []
+    },
+    {
+      "text": "dammi info sulla clinica trusso",
+      "intent": "Info Trusso",
+      "entities": []
+    },
+    {
+      "text": "dammi info sulla clinica vesuvio",
+      "intent": "Info Vesuvio",
+      "entities": []
+    },
+    {
+      "text": "dammi informazioni relative al centro medico ascione",
+      "intent": "Info Ascione",
+      "entities": []
+    },
+    {
+      "text": "dammi informazioni relative alla casa di cura la madonnina",
+      "intent": "Info La Madonnina",
+      "entities": []
+    },
+    {
+      "text": "dammi informazioni relative alla clinica trusso",
+      "intent": "Info Trusso",
+      "entities": []
+    },
+    {
+      "text": "dammi informazioni relative alla clinica vesuvio",
+      "intent": "Info Vesuvio",
+      "entities": []
+    },
+    {
+      "text": "dammi informazioni sui dottori del centro medico ascione",
+      "intent": "Centro Medico Ascione",
+      "entities": []
+    },
+    {
+      "text": "dammi informazioni sui dottori della clinica trusso",
+      "intent": "Clinica Trusso",
+      "entities": []
+    },
+    {
+      "text": "dammi informazioni sui dottori della clinica vesuvio",
+      "intent": "Clinica Vesuvio",
+      "entities": []
+    },
+    {
+      "text": "dammi informazioni sulle strutture sanitarie convenzionate",
+      "intent": "Strutture",
+      "entities": []
+    },
+    {
+      "text": "dammi l'email del centro medico ascione",
+      "intent": "Info Ascione",
+      "entities": []
+    },
+    {
+      "text": "dammi l'email della casa di cura la madonnina",
+      "intent": "Info La Madonnina",
+      "entities": []
+    },
+    {
+      "text": "dammi l'email della clinica trusso",
+      "intent": "Info Trusso",
+      "entities": []
+    },
+    {
+      "text": "dammi l'email della clinica vesuvio",
+      "intent": "Info Vesuvio",
+      "entities": []
+    },
+    {
+      "text": "dammi le prenotazioni",
+      "intent": "Pannello Prenotazioni",
+      "entities": []
+    },
+    {
+      "text": "dammi le visite mediche da annullare",
+      "intent": "Annulla Visita",
+      "entities": []
+    },
+    {
+      "text": "dammi tutti gli appuntamenti",
+      "intent": "Pannello Prenotazioni",
+      "entities": []
+    },
+    {
+      "text": "dammi una mano",
+      "intent": "Utilities.Help",
+      "entities": []
+    },
+    {
+      "text": "devi mostrarmi i dottori del centro medico ascione",
+      "intent": "Centro Medico Ascione",
+      "entities": []
+    },
+    {
+      "text": "devi mostrarmi i dottori della casa di cura la madonnina",
+      "intent": "Casa di Cura La Madonnina",
+      "entities": []
+    },
+    {
+      "text": "devi mostrarmi i dottori della clinica vesuvio",
+      "intent": "Clinica Vesuvio",
+      "entities": []
+    },
+    {
+      "text": "devi mostrarmi le prenotazioni",
+      "intent": "Pannello Prenotazioni",
+      "entities": []
+    },
+    {
+      "text": "devi visualizzare i dottori del centro medico ascione",
+      "intent": "Centro Medico Ascione",
+      "entities": []
+    },
+    {
+      "text": "devi visualizzare i dottori della casa di cura la madonnina",
+      "intent": "Casa di Cura La Madonnina",
+      "entities": []
+    },
+    {
+      "text": "devi visualizzare i dottori della clinica vesuvio",
+      "intent": "Clinica Vesuvio",
+      "entities": []
+    },
+    {
+      "text": "devo accedere all'area admin",
+      "intent": "Login",
+      "entities": []
+    },
+    {
+      "text": "devo andare al menu",
+      "intent": "Menu",
+      "entities": []
+    },
+    {
+      "text": "devo avere accesso al pannello admin",
+      "intent": "Login",
+      "entities": []
+    },
+    {
+      "text": "devo contattare il centro medico ascione",
+      "intent": "Info Ascione",
+      "entities": []
+    },
+    {
+      "text": "devo contattare la casa di cura la madonnina",
+      "intent": "Info La Madonnina",
+      "entities": []
+    },
+    {
+      "text": "devo contattare la clinica trusso",
+      "intent": "Info Trusso",
+      "entities": []
+    },
+    {
+      "text": "devo contattare la clinica vesuvio",
+      "intent": "Info Vesuvio",
+      "entities": []
+    },
+    {
+      "text": "devo prenotare una visita",
+      "intent": "Prenotazione Visita",
+      "entities": []
+    },
+    {
+      "text": "devo prenotare una visita medica",
+      "intent": "Prenotazione Visita",
+      "entities": []
+    },
+    {
+      "text": "devo prenotare una visita specialistica",
+      "intent": "Prenotazione Visita",
+      "entities": []
+    },
+    {
+      "text": "dottore struttura",
+      "intent": "Dottori",
+      "entities": []
+    },
+    {
+      "text": "dottori",
+      "intent": "Dottori",
+      "entities": []
+    },
+    {
+      "text": "dottori casa di cura la madonnina",
+      "intent": "Casa di Cura La Madonnina",
+      "entities": []
+    },
+    {
+      "text": "dottori centro medico ascione",
+      "intent": "Centro Medico Ascione",
+      "entities": []
+    },
+    {
+      "text": "dottori clinica trusso",
+      "intent": "Clinica Trusso",
+      "entities": []
+    },
+    {
+      "text": "dottori clinica vesuvio",
+      "intent": "Clinica Vesuvio",
+      "entities": []
+    },
+    {
+      "text": "dottori del centro medico ascione",
+      "intent": "Centro Medico Ascione",
+      "entities": []
+    },
+    {
+      "text": "dottori della clinica trusso",
+      "intent": "Clinica Trusso",
+      "entities": []
+    },
+    {
+      "text": "dottori della clinica vesuvio",
+      "intent": "Clinica Vesuvio",
+      "entities": []
+    },
+    {
+      "text": "dottori della struttura casa di cura la madonnina",
+      "intent": "Casa di Cura La Madonnina",
+      "entities": []
+    },
+    {
+      "text": "dottori della struttura clinica vesuvio",
+      "intent": "Clinica Vesuvio",
+      "entities": []
+    },
+    {
+      "text": "dottori della struttura la madonnina",
+      "intent": "Casa di Cura La Madonnina",
+      "entities": []
+    },
+    {
+      "text": "dottori della struttura sanitaria casa di cura la madonnina",
+      "intent": "Casa di Cura La Madonnina",
+      "entities": []
+    },
+    {
+      "text": "dottori della struttura sanitaria centro medico ascione",
+      "intent": "Centro Medico Ascione",
+      "entities": []
+    },
+    {
+      "text": "dove si trova il centro medico ascione?",
+      "intent": "Info Ascione",
+      "entities": []
+    },
+    {
+      "text": "dove si trova la casa di cura la madonnina?",
+      "intent": "Info La Madonnina",
+      "entities": []
+    },
+    {
+      "text": "dove si trova la clinica trusso?",
+      "intent": "Info Trusso",
+      "entities": []
+    },
+    {
+      "text": "dove si trova la clinica vesuvio?",
+      "intent": "Info Vesuvio",
+      "entities": []
+    },
+    {
+      "text": "è possibile annullare un appuntamento?",
+      "intent": "Annulla Visita",
+      "entities": []
+    },
+    {
+      "text": "è possibile annullare una visita ?",
+      "intent": "Annulla Visita",
+      "entities": []
+    },
+    {
+      "text": "è possibile darmi i dottori della casa di cura la madonnina?",
+      "intent": "Casa di Cura La Madonnina",
+      "entities": []
+    },
+    {
+      "text": "è possibile darmi i dottori della clinica vesuvio?",
+      "intent": "Clinica Vesuvio",
+      "entities": []
+    },
+    {
+      "text": "è possibile mostrare i dottori del centro medico ascione?",
+      "intent": "Centro Medico Ascione",
+      "entities": []
+    },
+    {
+      "text": "è possibile mostrare i dottori della casa di cura la madonnina?",
+      "intent": "Casa di Cura La Madonnina",
+      "entities": []
+    },
+    {
+      "text": "è possibile mostrare i dottori della clinica vesuvio?",
+      "intent": "Clinica Vesuvio",
+      "entities": []
+    },
+    {
+      "text": "è possibile mostrare tutti i dottori del centro medico ascione?",
+      "intent": "Centro Medico Ascione",
+      "entities": []
+    },
+    {
+      "text": "è possibile mostrare tutti i dottori della casa di cura la madonnina?",
+      "intent": "Casa di Cura La Madonnina",
+      "entities": []
+    },
+    {
+      "text": "è possibile mostrare tutti i dottori della clinica vesuvio?",
+      "intent": "Clinica Vesuvio",
+      "entities": []
+    },
+    {
+      "text": "è possibile visualizzare i dottori della casa di cura la madonnina?",
+      "intent": "Casa di Cura La Madonnina",
+      "entities": []
+    },
+    {
+      "text": "è possibile visualizzare i dottori?",
+      "intent": "Dottori",
+      "entities": []
+    },
+    {
+      "text": "è possibile visualizzare tutti i dottori della clinica vesuvio?",
+      "intent": "Clinica Vesuvio",
+      "entities": []
+    },
+    {
+      "text": "eliminare una visita",
+      "intent": "Annulla Visita",
+      "entities": []
+    },
+    {
+      "text": "esci",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "esco",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "fammi loggare come admin",
+      "intent": "Login",
+      "entities": []
+    },
+    {
+      "text": "fammi loggare come amministratore",
+      "intent": "Login",
+      "entities": []
+    },
+    {
+      "text": "help",
+      "intent": "Utilities.Help",
+      "entities": []
+    },
+    {
+      "text": "ho bisogno dei dottori della clinica trusso",
+      "intent": "Clinica Trusso",
+      "entities": []
+    },
+    {
+      "text": "ho bisogno di aiuto",
+      "intent": "Utilities.Help",
+      "entities": []
+    },
+    {
+      "text": "ho bisogno di annullare un appuntamento",
+      "intent": "Annulla Visita",
+      "entities": []
+    },
+    {
+      "text": "ho bisogno di assistenza",
+      "intent": "Utilities.Help",
+      "entities": []
+    },
+    {
+      "text": "ho bisogno di contattare il centro medico ascione",
+      "intent": "Info Ascione",
+      "entities": []
+    },
+    {
+      "text": "ho bisogno di contattare la casa di cura la madonnina",
+      "intent": "Info La Madonnina",
+      "entities": []
+    },
+    {
+      "text": "ho bisogno di contattare la clinica trusso",
+      "intent": "Info Trusso",
+      "entities": []
+    },
+    {
+      "text": "ho bisogno di contattare la clinica vesuvio",
+      "intent": "Info Vesuvio",
+      "entities": []
+    },
+    {
+      "text": "i dottori del centro medico ascione",
+      "intent": "Centro Medico Ascione",
+      "entities": []
+    },
+    {
+      "text": "i dottori della clinica trusso",
+      "intent": "Clinica Trusso",
+      "entities": []
+    },
+    {
+      "text": "i dottori della clinica vesuvio",
+      "intent": "Clinica Vesuvio",
+      "entities": []
+    },
+    {
+      "text": "i dottori la madonnina",
+      "intent": "Casa di Cura La Madonnina",
+      "entities": []
+    },
+    {
+      "text": "indicazioni stradali del centro medico ascione",
+      "intent": "Info Ascione",
+      "entities": []
+    },
+    {
+      "text": "indicazioni stradali della casa di cura la madonnina",
+      "intent": "Info La Madonnina",
+      "entities": []
+    },
+    {
+      "text": "indicazioni stradali della clinica trusso",
+      "intent": "Info Trusso",
+      "entities": []
+    },
+    {
+      "text": "indicazioni stradali della clinica vesuvio",
+      "intent": "Info Vesuvio",
+      "entities": []
+    },
+    {
+      "text": "info casa di cura la madonnina",
+      "intent": "Info La Madonnina",
+      "entities": []
+    },
+    {
+      "text": "info centro medico ascione",
+      "intent": "Info Ascione",
+      "entities": []
+    },
+    {
+      "text": "info clinica trusso",
+      "intent": "Info Trusso",
+      "entities": []
+    },
+    {
+      "text": "info clinica vesuvio",
+      "intent": "Info Vesuvio",
+      "entities": []
+    },
+    {
+      "text": "informazioni casa di cura la madonnina",
+      "intent": "Info La Madonnina",
+      "entities": []
+    },
+    {
+      "text": "informazioni centro medico ascione",
+      "intent": "Info Ascione",
+      "entities": []
+    },
+    {
+      "text": "informazioni clinica trusso",
+      "intent": "Info Trusso",
+      "entities": []
+    },
+    {
+      "text": "informazioni clinica vesuvio",
+      "intent": "Info Vesuvio",
+      "entities": []
+    },
+    {
+      "text": "informazioni dottori clinica vesuvio",
+      "intent": "Clinica Vesuvio",
+      "entities": []
+    },
+    {
+      "text": "informazioni dottori del centro medico ascione",
+      "intent": "Centro Medico Ascione",
+      "entities": []
+    },
+    {
+      "text": "informazioni sui dottori del centro medico ascione",
+      "intent": "Centro Medico Ascione",
+      "entities": []
+    },
+    {
+      "text": "informazioni sui dottori della clinica vesuvio",
+      "intent": "Clinica Vesuvio",
+      "entities": []
+    },
+    {
+      "text": "io voglio prenotare una visita",
+      "intent": "Prenotazione Visita",
+      "entities": []
+    },
+    {
+      "text": "li voglio tutti",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "login",
+      "intent": "Login",
+      "entities": []
+    },
+    {
+      "text": "login admin",
+      "intent": "Login",
+      "entities": []
+    },
+    {
+      "text": "login amministratore",
+      "intent": "Login",
+      "entities": []
+    },
+    {
+      "text": "menu",
+      "intent": "Menu",
+      "entities": []
+    },
+    {
+      "text": "menu funzionalità",
+      "intent": "Menu",
+      "entities": []
+    },
+    {
+      "text": "menu funzioni",
+      "intent": "Menu",
+      "entities": []
+    },
+    {
+      "text": "mi dai i dottori della clinica trusso?",
+      "intent": "Clinica Trusso",
+      "entities": []
+    },
+    {
+      "text": "mi dai le prenotazioni dei pazienti?",
+      "intent": "Pannello Prenotazioni",
+      "entities": []
+    },
+    {
+      "text": "mi devi fare annullare una visita",
+      "intent": "Annulla Visita",
+      "entities": []
+    },
+    {
+      "text": "mi devi mostrare le prenotazioni",
+      "intent": "Pannello Prenotazioni",
+      "entities": []
+    },
+    {
+      "text": "mi devi rimuovere una prenotazione",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "mi fai annullare le visite mediche?",
+      "intent": "Annulla Visita",
+      "entities": []
+    },
+    {
+      "text": "mi fai annullare una visita?",
+      "intent": "Annulla Visita",
+      "entities": []
+    },
+    {
+      "text": "mi fai prenotare una visita medica?",
+      "intent": "Prenotazione Visita",
+      "entities": []
+    },
+    {
+      "text": "mi fai prenotare una visita specialistica?",
+      "intent": "Prenotazione Visita",
+      "entities": []
+    },
+    {
+      "text": "mi fai prenotare una visita?",
+      "intent": "Prenotazione Visita",
+      "entities": []
+    },
+    {
+      "text": "mi mostri i dottori della clinica vesuvio?",
+      "intent": "Clinica Vesuvio",
+      "entities": []
+    },
+    {
+      "text": "mi mostri le strutture sanitarie ?",
+      "intent": "Strutture",
+      "entities": []
+    },
+    {
+      "text": "mi mostri le strutture sanitarie presenti?",
+      "intent": "Strutture",
+      "entities": []
+    },
+    {
+      "text": "mi mostri le strutture sanitarie?",
+      "intent": "Strutture",
+      "entities": []
+    },
+    {
+      "text": "mi potresti mostrare i dottori delle cliniche?",
+      "intent": "Dottori",
+      "entities": []
+    },
+    {
+      "text": "mi serve il sito web del centro medico ascione",
+      "intent": "Info Ascione",
+      "entities": []
+    },
+    {
+      "text": "mi serve il sito web della casa di cura la madonnina",
+      "intent": "Info La Madonnina",
+      "entities": []
+    },
+    {
+      "text": "mi serve il sito web della clinica trusso",
+      "intent": "Info Trusso",
+      "entities": []
+    },
+    {
+      "text": "mi serve il sito web della clinica vesuvio",
+      "intent": "Info Vesuvio",
+      "entities": []
+    },
+    {
+      "text": "mi serve l'email del centro medico ascione",
+      "intent": "Info Ascione",
+      "entities": []
+    },
+    {
+      "text": "mi serve l'email della casa di cura la madonnina",
+      "intent": "Info La Madonnina",
+      "entities": []
+    },
+    {
+      "text": "mi serve l'email della clinica trusso",
+      "intent": "Info Trusso",
+      "entities": []
+    },
+    {
+      "text": "mi serve l'email della clinica vesuvio",
+      "intent": "Info Vesuvio",
+      "entities": []
+    },
+    {
+      "text": "mi servono i dottori",
+      "intent": "Dottori",
+      "entities": []
+    },
+    {
+      "text": "mi servono i dottori della clinica trusso",
+      "intent": "Clinica Trusso",
+      "entities": []
+    },
+    {
+      "text": "mi servono i dottori delle strutture",
+      "intent": "Dottori",
+      "entities": []
+    },
+    {
+      "text": "mi vuoi mostrare i dottori della casa di cura la madonnina?",
+      "intent": "Casa di Cura La Madonnina",
+      "entities": []
+    },
+    {
+      "text": "mi vuoi mostrare i dottori della clinica trusso?",
+      "intent": "Clinica Trusso",
+      "entities": []
+    },
+    {
+      "text": "mi vuoi mostrare i dottori della struttura casa di cura la madonnina?",
+      "intent": "Casa di Cura La Madonnina",
+      "entities": []
+    },
+    {
+      "text": "mi vuoi mostrare i dottori della struttura la madonnina?",
+      "intent": "Casa di Cura La Madonnina",
+      "entities": []
+    },
+    {
+      "text": "mostra centro medico ascione",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "mostra clinica vesuvio",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "mostra dottori",
+      "intent": "Dottori",
+      "entities": []
+    },
+    {
+      "text": "mostra i dottori del centro medico ascione",
+      "intent": "Centro Medico Ascione",
+      "entities": []
+    },
+    {
+      "text": "mostra i dottori della clinica trusso",
+      "intent": "Clinica Trusso",
+      "entities": []
+    },
+    {
+      "text": "mostra i dottori della clinica vesuvio",
+      "intent": "Clinica Vesuvio",
+      "entities": []
+    },
+    {
+      "text": "mostra il pannello appuntamenti prenotati dai pazienti",
+      "intent": "Pannello Prenotazioni",
+      "entities": []
+    },
+    {
+      "text": "mostra l'orario di apertura del centro medico ascione",
+      "intent": "Info Ascione",
+      "entities": []
+    },
+    {
+      "text": "mostra l'orario di apertura della casa di cura la madonnina",
+      "intent": "Info La Madonnina",
+      "entities": []
+    },
+    {
+      "text": "mostra l'orario di apertura della clinica trusso",
+      "intent": "Info Trusso",
+      "entities": []
+    },
+    {
+      "text": "mostra l'orario di apertura della clinica vesuvio",
+      "intent": "Info Vesuvio",
+      "entities": []
+    },
+    {
+      "text": "mostra le indicazioni stradali del centro medico ascione",
+      "intent": "Info Ascione",
+      "entities": []
+    },
+    {
+      "text": "mostra le indicazioni stradali della casa di cura la madonnina",
+      "intent": "Info La Madonnina",
+      "entities": []
+    },
+    {
+      "text": "mostra le indicazioni stradali della clinica trusso",
+      "intent": "Info Trusso",
+      "entities": []
+    },
+    {
+      "text": "mostra le indicazioni stradali della clinica vesuvio",
+      "intent": "Info Vesuvio",
+      "entities": []
+    },
+    {
+      "text": "mostra le prenotazioni",
+      "intent": "Pannello Prenotazioni",
+      "entities": []
+    },
+    {
+      "text": "mostra le prenotazioni fatte",
+      "intent": "Pannello Prenotazioni",
+      "entities": []
+    },
+    {
+      "text": "mostra struttura clinica trusso",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "mostra struttura clinica vesuvio",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "mostrami i dottori",
+      "intent": "Dottori",
+      "entities": []
+    },
+    {
+      "text": "mostrami i dottori del centro medico ascione",
+      "intent": "Centro Medico Ascione",
+      "entities": []
+    },
+    {
+      "text": "mostrami i dottori della casa di cura la madonnina",
+      "intent": "Casa di Cura La Madonnina",
+      "entities": []
+    },
+    {
+      "text": "mostrami i dottori della clinica vesuvio",
+      "intent": "Clinica Vesuvio",
+      "entities": []
+    },
+    {
+      "text": "mostrami il menu",
+      "intent": "Menu",
+      "entities": []
+    },
+    {
+      "text": "mostrami il modulo di prenotazione visita",
+      "intent": "Prenotazione Visita",
+      "entities": []
+    },
+    {
+      "text": "mostrami il portale di accesso admin",
+      "intent": "Login",
+      "entities": []
+    },
+    {
+      "text": "mostrami il portale di accesso amministratore",
+      "intent": "Login",
+      "entities": []
+    },
+    {
+      "text": "mostrami il portale di accesso amministratore struttura",
+      "intent": "Login",
+      "entities": []
+    },
+    {
+      "text": "mostrami il sito del centro medico ascione",
+      "intent": "Info Ascione",
+      "entities": []
+    },
+    {
+      "text": "mostrami il sito della casa di cura la madonnina",
+      "intent": "Info La Madonnina",
+      "entities": []
+    },
+    {
+      "text": "mostrami il sito della clinica trusso",
+      "intent": "Info Trusso",
+      "entities": []
+    },
+    {
+      "text": "mostrami il sito della clinica vesuvio",
+      "intent": "Info Vesuvio",
+      "entities": []
+    },
+    {
+      "text": "mostrami l'email del centro medico ascione",
+      "intent": "Info Ascione",
+      "entities": []
+    },
+    {
+      "text": "mostrami l'email della casa di cura la madonnina",
+      "intent": "Info La Madonnina",
+      "entities": []
+    },
+    {
+      "text": "mostrami l'email della clinica trusso",
+      "intent": "Info Trusso",
+      "entities": []
+    },
+    {
+      "text": "mostrami l'email della clinica vesuvio",
+      "intent": "Info Vesuvio",
+      "entities": []
+    },
+    {
+      "text": "mostrami le cliniche",
+      "intent": "Strutture",
+      "entities": []
+    },
+    {
+      "text": "mostrami le cliniche presenti",
+      "intent": "Strutture",
+      "entities": []
+    },
+    {
+      "text": "mostrami le informazioni del centro medico ascione",
+      "intent": "Info Ascione",
+      "entities": []
+    },
+    {
+      "text": "mostrami le informazioni della casa di cura la madonnina",
+      "intent": "Info La Madonnina",
+      "entities": []
+    },
+    {
+      "text": "mostrami le informazioni della clinica trusso",
+      "intent": "Info Trusso",
+      "entities": []
+    },
+    {
+      "text": "mostrami le informazioni della clinica vesuvio",
+      "intent": "Info Vesuvio",
+      "entities": []
+    },
+    {
+      "text": "mostrami le informazioni della struttura casa di cura la madonnina",
+      "intent": "Info La Madonnina",
+      "entities": []
+    },
+    {
+      "text": "mostrami le informazioni della struttura centro medico ascione",
+      "intent": "Info Ascione",
+      "entities": []
+    },
+    {
+      "text": "mostrami le informazioni della struttura clinica trusso",
+      "intent": "Info Trusso",
+      "entities": []
+    },
+    {
+      "text": "mostrami le informazioni della struttura clinica vesuvio",
+      "intent": "Info Vesuvio",
+      "entities": []
+    },
+    {
+      "text": "mostrami le prenotazioni dei pazienti",
+      "intent": "Pannello Prenotazioni",
+      "entities": []
+    },
+    {
+      "text": "mostrami le strutture",
+      "intent": "Strutture",
+      "entities": []
+    },
+    {
+      "text": "mostrami le strutture sanitarie",
+      "intent": "Strutture",
+      "entities": []
+    },
+    {
+      "text": "mostrami le strutture sanitarie convenzionate",
+      "intent": "Strutture",
+      "entities": []
+    },
+    {
+      "text": "mostrami le visite specialistiche svolte dal centro medico ascione",
+      "intent": "Info Ascione",
+      "entities": []
+    },
+    {
+      "text": "mostrami le visite specialistiche svolte dalla casa di cura la madonnina",
+      "intent": "Info La Madonnina",
+      "entities": []
+    },
+    {
+      "text": "mostrami le visite specialistiche svolte dalla clinica trusso",
+      "intent": "Info Trusso",
+      "entities": []
+    },
+    {
+      "text": "mostrami le visite specialistiche svolte dalla clinica vesuvio",
+      "intent": "Info Vesuvio",
+      "entities": []
+    },
+    {
+      "text": "mostrami tutti i dottori della clinica trusso",
+      "intent": "Clinica Trusso",
+      "entities": []
+    },
+    {
+      "text": "mostrami tutti i dottori della clinica vesuvio",
+      "intent": "Clinica Vesuvio",
+      "entities": []
+    },
+    {
+      "text": "non so come funziona",
+      "intent": "Utilities.Help",
+      "entities": []
+    },
+    {
+      "text": "ora voglio il menu",
+      "intent": "Menu",
+      "entities": []
+    },
+    {
+      "text": "orario di apertura del centro medico ascione",
+      "intent": "Info Ascione",
+      "entities": []
+    },
+    {
+      "text": "orario di apertura della casa di cura la madonnina",
+      "intent": "Info La Madonnina",
+      "entities": []
+    },
+    {
+      "text": "orario di apertura della clinica trusso",
+      "intent": "Info Trusso",
+      "entities": []
+    },
+    {
+      "text": "orario di apertura della clinica vesuvio",
+      "intent": "Info Vesuvio",
+      "entities": []
+    },
+    {
+      "text": "pannello appuntamenti prenotati",
+      "intent": "Pannello Prenotazioni",
+      "entities": []
+    },
+    {
+      "text": "portami al menu",
+      "intent": "Menu",
+      "entities": []
+    },
+    {
+      "text": "portami al pannello delle prenotazioni",
+      "intent": "Pannello Prenotazioni",
+      "entities": []
+    },
+    {
+      "text": "portami alla prenotazione visite",
+      "intent": "Prenotazione Visita",
+      "entities": []
+    },
+    {
+      "text": "portami alle prenotazioni dei pazienti",
+      "intent": "Pannello Prenotazioni",
+      "entities": []
+    },
+    {
+      "text": "posso visualizzare i dottori del centro medico ascione?",
+      "intent": "Centro Medico Ascione",
+      "entities": []
+    },
+    {
+      "text": "posso visualizzare i dottori della clinica trusso?",
+      "intent": "Clinica Trusso",
+      "entities": []
+    },
+    {
+      "text": "posso visualizzare le informazioni dei dottori della clinica trusso?",
+      "intent": "Clinica Trusso",
+      "entities": []
+    },
+    {
+      "text": "potresti mostrarmi le strutture sanitarie?",
+      "intent": "Strutture",
+      "entities": []
+    },
+    {
+      "text": "potresti visualizzare i dottori della clinica trusso?",
+      "intent": "Clinica Trusso",
+      "entities": []
+    },
+    {
+      "text": "potresti visualizzare i dottori?",
+      "intent": "Dottori",
+      "entities": []
+    },
+    {
+      "text": "potresti visualizzare le cliniche presenti?",
+      "intent": "Strutture",
+      "entities": []
+    },
+    {
+      "text": "potresti visualizzare le cliniche?",
+      "intent": "Strutture",
+      "entities": []
+    },
+    {
+      "text": "potresti visualizzare le strutture sanitarie?",
+      "intent": "Strutture",
+      "entities": []
+    },
+    {
+      "text": "prenota visita clinica trusso",
+      "intent": "Prenotazione Visita",
+      "entities": []
+    },
+    {
+      "text": "prenota visita clinica vesuvio",
+      "intent": "Prenotazione Visita",
+      "entities": []
+    },
+    {
+      "text": "prenota visita medica casa di cura la madonnina",
+      "intent": "Prenotazione Visita",
+      "entities": []
+    },
+    {
+      "text": "prenota visita medica centro medico ascione",
+      "intent": "Prenotazione Visita",
+      "entities": []
+    },
+    {
+      "text": "prenota visita medica clinica trusso",
+      "intent": "Prenotazione Visita",
+      "entities": []
+    },
+    {
+      "text": "prenota visita medica clinica vesuvio",
+      "intent": "Prenotazione Visita",
+      "entities": []
+    },
+    {
+      "text": "prenotami",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "prenotare",
+      "intent": "Prenotazione Visita",
+      "entities": []
+    },
+    {
+      "text": "prenotare una visita",
+      "intent": "Prenotazione Visita",
+      "entities": []
+    },
+    {
+      "text": "prenotare visita",
+      "intent": "Prenotazione Visita",
+      "entities": []
+    },
+    {
+      "text": "prenotare visita specialistica",
+      "intent": "Prenotazione Visita",
+      "entities": []
+    },
+    {
+      "text": "prenotazione visita",
+      "intent": "Prenotazione Visita",
+      "entities": []
+    },
+    {
+      "text": "prenotazione visita medica",
+      "intent": "Prenotazione Visita",
+      "entities": []
+    },
+    {
+      "text": "prenotazione visita specialistica",
+      "intent": "Prenotazione Visita",
+      "entities": []
+    },
+    {
+      "text": "prenotazioni effettuate",
+      "intent": "Pannello Prenotazioni",
+      "entities": []
+    },
+    {
+      "text": "prenotazioni pazienti",
+      "intent": "Pannello Prenotazioni",
+      "entities": []
+    },
+    {
+      "text": "prenotazioni visite",
+      "intent": "Pannello Prenotazioni",
+      "entities": []
+    },
+    {
+      "text": "prova",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "prova questo",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "puoi aiutarmi",
+      "intent": "Utilities.Help",
+      "entities": []
+    },
+    {
+      "text": "puoi essere d'aiuto",
+      "intent": "Utilities.Help",
+      "entities": []
+    },
+    {
+      "text": "puoi mostrarmi i dottori del centro medico ascione?",
+      "intent": "Centro Medico Ascione",
+      "entities": []
+    },
+    {
+      "text": "puoi mostrarmi i dottori della casa di cura la madonnina?",
+      "intent": "Casa di Cura La Madonnina",
+      "entities": []
+    },
+    {
+      "text": "puoi mostrarmi i dottori della clinica trusso?",
+      "intent": "Clinica Trusso",
+      "entities": []
+    },
+    {
+      "text": "puoi mostrarmi i dottori presenti?",
+      "intent": "Dottori",
+      "entities": []
+    },
+    {
+      "text": "qualche aiuto",
+      "intent": "Utilities.Help",
+      "entities": []
+    },
+    {
+      "text": "quali dottori ci sono al centro medico ascione?",
+      "intent": "Centro Medico Ascione",
+      "entities": []
+    },
+    {
+      "text": "quali dottori ci sono alla casa di cura la madonnina?",
+      "intent": "Casa di Cura La Madonnina",
+      "entities": []
+    },
+    {
+      "text": "quali sono i dottori del centro medico ascione?",
+      "intent": "Centro Medico Ascione",
+      "entities": []
+    },
+    {
+      "text": "quali sono i dottori della clinica trusso?",
+      "intent": "Clinica Trusso",
+      "entities": []
+    },
+    {
+      "text": "quali sono i dottori della clinica vesuvio?",
+      "intent": "Clinica Vesuvio",
+      "entities": []
+    },
+    {
+      "text": "quali visite specialistiche vengono svolte presso il centro medico ascione?",
+      "intent": "Info Ascione",
+      "entities": []
+    },
+    {
+      "text": "quali visite specialistiche vengono svolte presso la casa di cura la madonnina?",
+      "intent": "Info La Madonnina",
+      "entities": []
+    },
+    {
+      "text": "quali visite specialistiche vengono svolte presso la clinica trusso?",
+      "intent": "Info Trusso",
+      "entities": []
+    },
+    {
+      "text": "quali visite specialistiche vengono svolte presso la clinica vesuvio?",
+      "intent": "Info Vesuvio",
+      "entities": []
+    },
+    {
+      "text": "quando apre il centro medico ascione?",
+      "intent": "Info Ascione",
+      "entities": []
+    },
+    {
+      "text": "quando apre la casa di cura la madonnina?",
+      "intent": "Info La Madonnina",
+      "entities": []
+    },
+    {
+      "text": "quando apre la clinica trusso?",
+      "intent": "Info Trusso",
+      "entities": []
+    },
+    {
+      "text": "quando apre la clinica vesuvio?",
+      "intent": "Info Vesuvio",
+      "entities": []
+    },
+    {
+      "text": "rimozione appuntamento",
+      "intent": "Annulla Visita",
+      "entities": []
+    },
+    {
+      "text": "rimuovere appuntamento di un dottore",
+      "intent": "Annulla Visita",
+      "entities": []
+    },
+    {
+      "text": "rimuovere una visita",
+      "intent": "Annulla Visita",
+      "entities": []
+    },
+    {
+      "text": "rimuovere visite mediche",
+      "intent": "Annulla Visita",
+      "entities": []
+    },
+    {
+      "text": "se puoi mostrarmi i dottori della casa di cura la madonnina",
+      "intent": "Casa di Cura La Madonnina",
+      "entities": []
+    },
+    {
+      "text": "sono l'admin",
+      "intent": "Login",
+      "entities": []
+    },
+    {
+      "text": "sono l'amministratore di una struttura sanitaria",
+      "intent": "Login",
+      "entities": []
+    },
+    {
+      "text": "sono un admin",
+      "intent": "Login",
+      "entities": []
+    },
+    {
+      "text": "sono un amministratore",
+      "intent": "Login",
+      "entities": []
+    },
+    {
+      "text": "strutture",
+      "intent": "Strutture",
+      "entities": []
+    },
+    {
+      "text": "strutture presenti",
+      "intent": "Strutture",
+      "entities": []
+    },
+    {
+      "text": "strutture sanitarie presenti",
+      "intent": "Strutture",
+      "entities": []
+    },
+    {
+      "text": "tutti",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "tutti i dottori del centro medico ascione",
+      "intent": "Centro Medico Ascione",
+      "entities": []
+    },
+    {
+      "text": "uscire",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "uscita",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "vai al menu",
+      "intent": "Menu",
+      "entities": []
+    },
+    {
+      "text": "vai al menu principale",
+      "intent": "Menu",
+      "entities": []
+    },
+    {
+      "text": "visite mediche da annullare",
+      "intent": "Annulla Visita",
+      "entities": []
+    },
+    {
+      "text": "visualizza area login admin",
+      "intent": "Login",
+      "entities": []
+    },
+    {
+      "text": "visualizza area login amministratore",
+      "intent": "Login",
+      "entities": []
+    },
+    {
+      "text": "visualizza i dottori della struttura la madonnina",
+      "intent": "Casa di Cura La Madonnina",
+      "entities": []
+    },
+    {
+      "text": "visualizza il login admin",
+      "intent": "Login",
+      "entities": []
+    },
+    {
+      "text": "visualizza il menu",
+      "intent": "Menu",
+      "entities": []
+    },
+    {
+      "text": "visualizza il menu principale",
+      "intent": "Menu",
+      "entities": []
+    },
+    {
+      "text": "visualizza le prenotazioni centro medico ascione",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "visualizza le prenotazioni della casa di cura la madonnina",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "visualizza le prenotazioni della clinica trusso",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "visualizza le prenotazioni fatte dai pazienti",
+      "intent": "Pannello Prenotazioni",
+      "entities": []
+    },
+    {
+      "text": "visualizza le strutture sanitarie",
+      "intent": "Strutture",
+      "entities": []
+    },
+    {
+      "text": "visualizza le visite da annullare",
+      "intent": "Annulla Visita",
+      "entities": []
+    },
+    {
+      "text": "visualizza menu",
+      "intent": "Menu",
+      "entities": []
+    },
+    {
+      "text": "visualizza struttura casa di cura la madonnina",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "visualizzare i dottori",
+      "intent": "Dottori",
+      "entities": []
+    },
+    {
+      "text": "visualizzare i dottori del centro medico ascione",
+      "intent": "Centro Medico Ascione",
+      "entities": []
+    },
+    {
+      "text": "visualizzare i dottori della clinica vesuvio",
+      "intent": "Clinica Vesuvio",
+      "entities": []
+    },
+    {
+      "text": "visualizzare i dottori delle strutture sanitarie",
+      "intent": "Dottori",
+      "entities": []
+    },
+    {
+      "text": "visualizzare tutti i dottori centro medico ascione",
+      "intent": "Centro Medico Ascione",
+      "entities": []
+    },
+    {
+      "text": "voglio annullare una visita",
+      "intent": "Annulla Visita",
+      "entities": []
+    },
+    {
+      "text": "voglio annullare una visita trusso",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "voglio che mi mostri i dottori della clinica trusso",
+      "intent": "Clinica Trusso",
+      "entities": []
+    },
+    {
+      "text": "voglio che mostri i dottori",
+      "intent": "Dottori",
+      "entities": []
+    },
+    {
+      "text": "voglio che mostri i dottori della casa di cura la madonnina",
+      "intent": "Casa di Cura La Madonnina",
+      "entities": []
+    },
+    {
+      "text": "voglio che mostri le strutture sanitarie convenzionate",
+      "intent": "Strutture",
+      "entities": []
+    },
+    {
+      "text": "voglio che mostri tutte le strutture sanitarie",
+      "intent": "Strutture",
+      "entities": []
+    },
+    {
+      "text": "voglio che visualizzi i dottori",
+      "intent": "Dottori",
+      "entities": []
+    },
+    {
+      "text": "voglio che visualizzi i dottori della casa di cura la madonnina",
+      "intent": "Casa di Cura La Madonnina",
+      "entities": []
+    },
+    {
+      "text": "voglio che visualizzi le prenotazioni effettuate",
+      "intent": "Pannello Prenotazioni",
+      "entities": []
+    },
+    {
+      "text": "voglio eliminare una prenotazione",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "voglio i dottori del centro medico ascione",
+      "intent": "Centro Medico Ascione",
+      "entities": []
+    },
+    {
+      "text": "voglio i dottori della casa di cura la madonnina",
+      "intent": "Casa di Cura La Madonnina",
+      "entities": []
+    },
+    {
+      "text": "voglio i dottori della clinica trusso",
+      "intent": "Clinica Trusso",
+      "entities": []
+    },
+    {
+      "text": "voglio i dottori della clinica vesuvio",
+      "intent": "Clinica Vesuvio",
+      "entities": []
+    },
+    {
+      "text": "voglio info sui dottori",
+      "intent": "Dottori",
+      "entities": []
+    },
+    {
+      "text": "voglio info sui dottori della clinica trusso",
+      "intent": "Clinica Trusso",
+      "entities": []
+    },
+    {
+      "text": "voglio info sui dottori di una struttura",
+      "intent": "Dottori",
+      "entities": []
+    },
+    {
+      "text": "voglio info sulle strutture sanitarie",
+      "intent": "Strutture",
+      "entities": []
+    },
+    {
+      "text": "voglio info sulle strutture sanitarie convenzionate",
+      "intent": "Strutture",
+      "entities": []
+    },
+    {
+      "text": "voglio informazioni sui dottori",
+      "intent": "Dottori",
+      "entities": []
+    },
+    {
+      "text": "voglio informazioni sui dottori del centro medico ascione",
+      "intent": "Centro Medico Ascione",
+      "entities": []
+    },
+    {
+      "text": "voglio informazioni sui dottori della clinica trusso",
+      "intent": "Clinica Trusso",
+      "entities": []
+    },
+    {
+      "text": "voglio informazioni sulle cliniche presenti",
+      "intent": "Strutture",
+      "entities": []
+    },
+    {
+      "text": "voglio le prenotazioni di clinica trusso",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "voglio prenotare una visita",
+      "intent": "Prenotazione Visita",
+      "entities": []
+    },
+    {
+      "text": "voglio prenotare una visita medica",
+      "intent": "Prenotazione Visita",
+      "entities": []
+    },
+    {
+      "text": "voglio prenotare una visita medica specialistica",
+      "intent": "Prenotazione Visita",
+      "entities": []
+    },
+    {
+      "text": "voglio prenotare una visita specialistica",
+      "intent": "Prenotazione Visita",
+      "entities": []
+    },
+    {
+      "text": "voglio tutti gli appuntamenti dei pazienti",
+      "intent": "Pannello Prenotazioni",
+      "entities": []
+    },
+    {
+      "text": "voglio uscire",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "voglio vedere i dottori",
+      "intent": "Dottori",
+      "entities": []
+    },
+    {
+      "text": "voglio vedere i dottori del centro medico ascione",
+      "intent": "Centro Medico Ascione",
+      "entities": []
+    },
+    {
+      "text": "voglio vedere i dottori della clinica",
+      "intent": "Dottori",
+      "entities": []
+    },
+    {
+      "text": "voglio vedere i dottori della clinica trusso",
+      "intent": "Clinica Trusso",
+      "entities": []
+    },
+    {
+      "text": "voglio vedere i dottori della clinica vesuvio",
+      "intent": "Clinica Vesuvio",
+      "entities": []
+    },
+    {
+      "text": "voglio vedere i dottori presenti",
+      "intent": "Dottori",
+      "entities": []
+    },
+    {
+      "text": "voglio vedere il menu",
+      "intent": "Menu",
+      "entities": []
+    },
+    {
+      "text": "voglio vedere il menu principale",
+      "intent": "Menu",
+      "entities": []
+    },
+    {
+      "text": "voglio vedere le prenotazioni",
+      "intent": "Pannello Prenotazioni",
+      "entities": []
+    },
+    {
+      "text": "voglio vedere le prenotazioni della casa di cura la madonnina",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "voglio vedere tutti i dottori della clinica vesuvio",
+      "intent": "Clinica Vesuvio",
+      "entities": []
+    },
+    {
+      "text": "voglio vedere un dottore di una struttura sanitaria",
+      "intent": "Dottori",
+      "entities": []
+    },
+    {
+      "text": "voglio visualizzare i dottori del centro medico ascione",
+      "intent": "Centro Medico Ascione",
+      "entities": []
+    },
+    {
+      "text": "voglio visualizzare i dottori della clinica trusso",
+      "intent": "Clinica Trusso",
+      "entities": []
+    },
+    {
+      "text": "voglio visualizzare i dottori della clinica vesuvio",
+      "intent": "Clinica Vesuvio",
+      "entities": []
+    },
+    {
+      "text": "voglio visualizzare le cliniche convenzionate",
+      "intent": "Strutture",
+      "entities": []
+    },
+    {
+      "text": "voglio visualizzare le strutture",
+      "intent": "Strutture",
+      "entities": []
+    },
+    {
+      "text": "voglio visualizzare le strutture sanitarie",
+      "intent": "Strutture",
+      "entities": []
+    },
+    {
+      "text": "voglio visualizzare le strutture sanitarie convenzionate",
+      "intent": "Strutture",
+      "entities": []
+    },
+    {
+      "text": "voglio visualizzare tutti i dottori della clinica trusso",
+      "intent": "Clinica Trusso",
+      "entities": []
+    },
+    {
+      "text": "vorrei fissare appuntamento per una visita medica",
+      "intent": "Prenotazione Visita",
+      "entities": []
+    },
+    {
+      "text": "vorrei fissare un appuntamento per una visita",
+      "intent": "Prenotazione Visita",
+      "entities": []
+    },
+    {
+      "text": "vorrei prenotare un appuntamento",
+      "intent": "Prenotazione Visita",
+      "entities": []
+    },
+    {
+      "text": "vorrei prenotare una visita",
+      "intent": "Prenotazione Visita",
+      "entities": []
+    }
+  ],
+  "versionId": "0.1",
+  "name": "MyHealthcareBotLuis",
+  "desc": "",
+  "culture": "it-it",
+  "tokenizerVersion": "1.0.0",
+  "patternAnyEntities": [],
+  "regex_entities": [],
+  "phraselists": [],
+  "regex_features": [],
+  "patterns": [],
+  "settings": [
+    {
+      "name": "NormalizeDiacritics",
+      "value": "false"
+    },
+    {
+      "name": "NormalizePunctuation",
+      "value": "true"
+    }
+  ]
+}
