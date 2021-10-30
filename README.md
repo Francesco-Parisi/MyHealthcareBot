@@ -198,5 +198,3 @@ Per poter testare il bot appena creato occore effettuare il deploy:
 • **Infrastruttura globale**: https://azure.microsoft.com/it-it/global-infrastructure/
 
 • **Vantaggi di Azure**: https://azure.microsoft.com/it-it/overview/azure-vs-aws/
-
-a
