@@ -199,3 +199,4 @@ Per poter testare il bot appena creato occore effettuare il deploy:
 
 • **Vantaggi di Azure**: https://azure.microsoft.com/it-it/overview/azure-vs-aws/
 
+a
