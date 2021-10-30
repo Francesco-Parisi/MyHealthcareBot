@@ -141,6 +141,7 @@ https://<FunctionAppName>.scm.azurewebsites.net
 Una volta scelto 'Debug Console' -> 'CMD' svolgere i seguenti passi:
 ```sh
 cd site/wwwroot
+npm install
 npm install nodemailer
 ```
 Questo permetterà di installare il modulo nodemailer, necessario per l'invio dell'email tramite l'esecuzione dell'HTTP Trigger. 
