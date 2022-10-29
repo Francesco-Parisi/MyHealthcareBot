@@ -38,7 +38,6 @@ L’architettura di MyHealtcareBot è caratterizzata dall’utilizzo di diversi 
 • **Blob Storage**: Tale servizio è stato utilizzato per l’archiviazione dei QR-code, i quali vengono generati e archiviati sottoforma di immagini.
 
 • **Azure Logic App**: A causa dell’elevato numero di prenotazioni e di conseguenza dell’elevato numero di immagini archiviate, si è pensato di usufruire di un servizio che ne permettesse l’eliminazione dopo un certo periodo di tempo, ottimizzando così lo spazio di archiviazione. Azure Logic App è una piattaforma per la creazione e l’esecuzione di flussi di lavoro automatizzati, garantendo soluzioni altamente scalabili. Per poter eliminare le immagini archiviate è stato necessario progettare la Logic app in modo da rendere il processo del tutto automatizzato. Si è partito dalla sua ricorrenza di attivazione, in questo caso specificando l’orario e un giorno della settimana in cui la Logic app deve essere eseguita, poi è stata creata una connessione API, che ha consentito di connettere la Logic app al servizio di archiviazione BlobStorage, in particolare alla cartella public contenente le immagini da eliminare.
-altamente scalabili. Per poter eliminare le immagini archiviate è stato necessario progettare la Logic app in modo da rendere il processo del tutto automatizzato. Si è partito dalla sua ricorrenza
 
 ## Sviluppi Futuri
 
